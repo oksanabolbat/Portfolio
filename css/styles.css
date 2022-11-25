@@ -147,6 +147,9 @@ h3 {
   .top-section {
     padding: 80px 20px;
   }
+  .btn-start {
+    width: 100%;
+  }
 }
 @media (max-width: 768px) {
   .hello h1 {
@@ -170,7 +173,9 @@ h3 {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .projects * {
+  .projects *,
+  h2,
+  p {
     text-align: center;
   }
   .view-app {
@@ -179,5 +184,7 @@ h3 {
   }
   .btn-start {
     margin-bottom: 100px;
+    display: block;
+    margin: 0 auto;
   }
 }
