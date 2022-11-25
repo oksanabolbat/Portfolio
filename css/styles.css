@@ -16,26 +16,41 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
-
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
 .hero p {
   font-size: 36px;
   line-height: 54px;
   font-weight: 700;
 }
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
 h1 {
   font-size: 96px;
   line-height: 128px;
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
+
   margin-bottom: 24px;
 }
-
 h2 {
+  font-size: 64px;
+  line-height: 85px;
+}
+h3 {
   font-size: 24px;
   line-height: 36px;
 }
-.hero {
+.hero,
+.about {
   max-width: 1100px;
+}
+.about {
+  padding: 127px 20px;
 }
 .hello {
   max-width: 700px;
@@ -53,6 +68,9 @@ h2 {
 .nav-link {
   color: var(--font-color);
 }
+.nav-link:hover {
+  opacity: 0.5;
+}
 .active-link {
   color: var(--secondary-color);
 }
@@ -63,4 +81,17 @@ h2 {
   font-size: 18px;
   line-height: 27px;
   margin-bottom: 270px;
+}
+.btn-start:hover {
+  background-color: var(--secondary-color);
+}
+.view-app {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  padding: 18px 30px;
+  font-size: 16px;
+}
+.view-app:hover {
+  background-color: var(--bg-color);
 }
