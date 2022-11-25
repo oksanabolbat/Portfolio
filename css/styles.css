@@ -3,6 +3,8 @@
   --font-color: #132238;
   --primary-color: #364e68;
   --secondary-color: #98ccd3;
+  --main-font-family: "Poppins", sans-serif;
+  --h-font-family: "Playfair Display", serif;
 }
 
 /*rgb(235, 240, 246);
@@ -13,7 +15,7 @@ rgb(152, 204, 211)
 */
 body {
   color: var(--font-color);
-  font-family: "Poppins", sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 400;
 }
 p {
@@ -28,7 +30,7 @@ p {
 h1,
 h2,
 h3 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--h-font-family);
   font-weight: 700;
 }
 h1 {
