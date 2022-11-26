@@ -136,6 +136,20 @@ h3 {
 .img-work {
   max-height: 560px;
 }
+.email-footer {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+.email-footer:hover,
+.fa-brands:hover {
+  color: var(--secondary-color);
+}
+.fa-brands {
+  color: var(--primary-color);
+  font-size: 40px;
+}
+
 @media (max-width: 990px) {
   .top-section-content {
     text-align: center;
